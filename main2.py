@@ -53,3 +53,6 @@ def playingtime(playlist, n):
         for i in names:
             time += playlist_dict[i]
     return time
+print(playingtime(playlist_d, 3))
+print(playingtime(playlist_b, 3))
+      
